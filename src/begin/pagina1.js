@@ -5,3 +5,7 @@ boton.addEventListener('click',()=>{
     console.log('el usuario igresado es', usuario, '\n', 'La contraseña ingresa', contra)
 })
 
+let handleOnClick=()=>{
+    window.location.href = "../register/Register.html"
+}
+

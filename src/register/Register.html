@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar</title>
+    <LINK REL=StyleSheet HREF="styleRegister.css">
+    <link rel="shortcut icon" href="#">
+</head>
+<body>
+    <div class="wrapper fadeInDown">
+        <div id="formContent">
+          <!-- Tabs Titles -->
+          <h2 class="inactive underlineHover" onclick="handleOnClick()"> Iniciar Sesion  </h2>
+          <h2 class="active"> Registrar Usuario </h2>
+          
+            
+      
+          <!-- Login Form -->
+            <input type="text" id="login1" class="fadeIn second" name="name" placeholder="Nombres">
+            <input type="text" id="login1" class="fadeIn second" name="lastname" placeholder="Apellidos">
+            <br> <label>Fecha de Nacimiento <input type="date" id="login1" class="fadeIn second" name="dates"></label>
+            <br><input type="tel" id="login1" class="fadeIn second" name="phone" placeholder="No. Telefono">
+            <select name="sex" class="fadeIn second"  id="login1" >
+                <option value="sexo" selected>Sexo</option>
+                <option value="male">Masculino</option>
+                <option>Femenino</option>
+            </select>
+            <input type="text" id="login" class="fadeIn second" name="cui" placeholder="Numero de Identificacion Personal (CUI)">
+            <input type="email" id="login" class="fadeIn second" name="email" placeholder="Correo Electronico">
+            <input type="text" id="login" class="fadeIn second" name="address" placeholder="Direcion">
+            <input type="password" id="password" class="fadeIn third" name="pass1" placeholder="Contraseña">
+            <input type="password" id="password" class="fadeIn third" name="pass2" placeholder="Repita Contraseña">
+            <button  type='submit' class="fadeIn fourth" >Registrar</button>
+            
+          
+      
+          
+      
+        </div>
+      </div>
+    <script src="./register.js"></script>
+</body>
+</html>
