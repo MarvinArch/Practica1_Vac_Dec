@@ -9,3 +9,6 @@ let handleOnClick=()=>{
     window.location.href = "../register/Register.html"
 }
 
+let clinic=()=>{
+    window.location.href = "../clinic/clinic.html"
+}

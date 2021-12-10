@@ -16,6 +16,7 @@ boton.addEventListener('click',()=>{
         let cui=document.querySelector("input[name='cui']").value
         let email=document.querySelector("input[name='email']").value
         let address=document.querySelector("input[name='address']").value
+        console.log("Las contraseñas ingresadas coinciden y son ", pass1)
         console.log('el nombre igresado es', name, '\n', 'El apellido ingresado es ', lastname)
         console.log("con fecha de Nacimiento", dates, '\n', 'Sexo de la Presona ', sex)
         console.log("Telefono Registrado", phone, '\n', 'Identificacion No. ', cui)
